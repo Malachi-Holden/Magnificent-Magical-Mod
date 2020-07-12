@@ -9,5 +9,6 @@ public class MagnificentMagicalMod {
 
     public MagnificentMagicalMod(){
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }
