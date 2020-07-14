@@ -1,0 +1,16 @@
+{
+  "type": "smelting",
+  "ingredient":
+  [
+    {
+      "item": "magnificentmagicalmod:copper_ore"
+    }
+  ],
+  "result":
+  {
+    "item": "magnificentmagicalmod:copper_ingot",
+    "experience": 0.7,
+    "cookingtime": 200
+  }
+
+}

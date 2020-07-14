@@ -1,6 +1,17 @@
 {
-  "item.magnificentmagicalmod.pewter_block": "Pewter Block",
-  "item.magnificentmagicalmod.silver_block": "Silver Block",
+  "item.magnificentmagicalmod.silver_ingot": "Silver Ingot",
+  "item.magnificentmagicalmod.pewter_ingot": "Pewter Ingot",
+  "item.magnificentmagicalmod.brass_ingot": "Brass Ingot",
+  "item.magnificentmagicalmod.copper_ingot": "Copper Ingot",
+  "item.magnificentmagicalmod.bronze_ingot": "Bronze Ingot",
+
+
   "block.magnificentmagicalmod.pewter_block": "Pewter Block",
-  "block.magnificentmagicalmod.silver_block": "Silver Block"
+  "block.magnificentmagicalmod.silver_block": "Silver Block",
+  "block.magnificentmagicalmod.copper_block": "Copper Block",
+  "block.magnificentmagicalmod.silver_ore": "Silver Ore",
+  "block.magnificentmagicalmod.copper_ore": "Copper Ore",
+  "block.magnificentmagicalmod.bronze_block": "Bronze Block",
+  "block.magnificentmagicalmod.brass_block": "Brass Block",
+  "itemGroup.tabMagnificentMagicalMod": "Magnificent Magical Mod"
 }

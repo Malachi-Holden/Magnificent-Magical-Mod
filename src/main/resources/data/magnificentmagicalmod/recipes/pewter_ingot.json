@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "magnificentmagicalmod:pewter_block"
+    }
+  ],
+  "result":
+  {
+    "item": "magnificentmagicalmod:pewter_ingot",
+    "count": 9
+  }
+
+}

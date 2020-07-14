@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "magnificentmagicalmod:bronze_block"
+    }
+  ],
+  "result":
+  {
+    "item": "magnificentmagicalmod:bronze_ingot",
+    "count": 9
+  }
+
+}
