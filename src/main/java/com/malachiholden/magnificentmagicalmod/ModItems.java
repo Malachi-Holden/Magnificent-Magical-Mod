@@ -35,7 +35,7 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_BLOCK = ITEMS.register("copper_block", ()->new BlockItem(ModBlocks.COPPER_BLOCK.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> BRONZE_BLOCK = ITEMS.register("bronze_block", ()->new BlockItem(ModBlocks.BRONZE_BLOCK.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> BRASS_BLOCK = ITEMS.register("brass_block", ()->new BlockItem(ModBlocks.BRASS_BLOCK.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
-    public static final RegistryObject<Item> SILVER_ORE = ITEMS.register("silver_ore", ()->new BlockItem(ModBlocks.COPPER_ORE.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
-    public static final RegistryObject<Item> COPPER_ORE = ITEMS.register("copper_ore", ()->new BlockItem(ModBlocks.SILVER_ORE.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> SILVER_ORE = ITEMS.register("silver_ore", ()->new BlockItem(ModBlocks.SILVER_ORE.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> COPPER_ORE = ITEMS.register("copper_ore", ()->new BlockItem(ModBlocks.COPPER_ORE.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
 
 }
