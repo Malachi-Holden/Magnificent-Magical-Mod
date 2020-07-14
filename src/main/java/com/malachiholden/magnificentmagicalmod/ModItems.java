@@ -23,5 +23,7 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_BLOCK = ITEMS.register("silver_block", ()->new BlockItem(ModBlocks.SILVER_BLOCK.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> PEWTER_BLOCK = ITEMS.register("pewter_block", ()->new BlockItem(ModBlocks.PEWTER_BLOCK.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> COPPER_BLOCK = ITEMS.register("copper_block", ()->new BlockItem(ModBlocks.COPPER_BLOCK.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> BRONZE_BLOCK = ITEMS.register("bronze_block", ()->new BlockItem(ModBlocks.BRONZE_BLOCK.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> BRASS_BLOCK = ITEMS.register("brass_block", ()->new BlockItem(ModBlocks.BRASS_BLOCK.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
 
 }
