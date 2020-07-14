@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "magnificentmagicalmod:copper_block"
+    }
+  ],
+  "result":
+  {
+    "item": "magnificentmagicalmod:copper_ingot",
+    "count": 9
+  }
+
+}

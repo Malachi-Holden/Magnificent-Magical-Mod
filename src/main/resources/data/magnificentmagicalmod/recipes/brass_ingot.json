@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+          [
+            {
+              "item": "magnificentmagicalmod:brass_block"
+            }
+          ],
+  "result":
+  {
+    "item": "magnificentmagicalmod:brass_ingot",
+    "count": 9
+  }
+
+}
