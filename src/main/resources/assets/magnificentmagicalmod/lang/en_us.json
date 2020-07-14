@@ -3,5 +3,6 @@
   "item.magnificentmagicalmod.silver_block": "Silver Block",
   "block.magnificentmagicalmod.pewter_block": "Pewter Block",
   "block.magnificentmagicalmod.silver_block": "Silver Block",
-  "block.magnificentmagicalmod.copper_block": "Copper Block"
+  "block.magnificentmagicalmod.copper_block": "Copper Block",
+  "itemGroup.tabMagnificentMagicalMod": "Magnificent Magical Mod"
 }
