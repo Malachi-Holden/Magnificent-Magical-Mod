@@ -4,7 +4,8 @@
   "textures":{
     "0": "magnificentmagicalmod:block/copper_cauldron",
     "1": "magnificentmagicalmod:block/copper_cauldron_bottom",
-    "2": "magnificentmagicalmod:block/copper_cauldron_inside"
+    "2": "magnificentmagicalmod:block/copper_cauldron_inside",
+    "3": "magnificentmagicalmod:block/copper_cauldron_rim"
     },
   "display": {
     "gui": {
@@ -163,14 +164,101 @@
         "up":{"texture": 1,"uv": [1,0,7,0]}
       }
     },
-    {"name":"cauldron_level_2_3",
+    {"name":"cauldron_level_2_4",
       "from": [5,2,11],
       "to": [11,3,12],
       "faces": {
         "north": {"texture":  2, "uv": [5,13,11,14]},
         "up":{"texture": 1,"uv": [1,0,7,0]}
       }
-    }
-
+    },
+    {"name":"cauldron_level_3_1",
+      "from": [3,2,3],
+      "to": [4,7,13],
+      "faces": {
+        "west":{"texture": 0,"uv": [3,9,13,14]},
+        "east":{"texture": 2,"uv": [3,9,13,14]},
+        "north": {"texture": 0,"uv": [3,9,4,14]},
+        "south": {"texture": 0,"uv": [3,9,4,14]},
+        "up":{"texture": 3,"uv": [0,0,1,10]},
+        "down":{"texture": 3,"uv": [9,0,10,10]}
+      }
+    },
+    {"name":"cauldron_level_3_2",
+      "from": [12,2,3],
+      "to": [13,7,13],
+      "faces": {
+        "north": {"texture": 0,"uv": [12,9,13,14]},
+        "south": {"texture": 0,"uv": [12,9,13,14]},
+        "east":{"texture": 0,"uv": [3,9,13,14]},
+        "west":{"texture": 2,"uv": [4,9,12,14]},
+        "up":{"texture": 3,"uv": [9,0,10,10]},
+        "down":{"texture": 3,"uv": [9,0,10,10]}
+      }
+    },
+    {"name":"cauldron_level_3_3",
+      "from": [4,2,3],
+      "to": [12,7,4],
+      "faces": {
+        "north":{"texture": 0,"uv": [4,9,12,14]},
+        "south":{"texture": 2,"uv": [4,9,12,14]},
+        "up":{"texture": 3,"uv": [0,0,10,1]},
+        "down":{"texture": 3,"uv": [0,0,10,1]}
+      }
+    },
+    {"name":"cauldron_level_3_4",
+      "from": [4,2,12],
+      "to": [13,7,13],
+      "faces": {
+        "south":{"texture": 0,"uv": [4,9,12,14]},
+        "north":{"texture": 2,"uv": [4,9,12,14]},
+        "up":{"texture": 3,"uv": [0,9,10,10]},
+        "down":{"texture": 3,"uv": [0,9,10,10]}
+      }
+    },
+    {"name":"cauldron_level_4_1",
+      "from": [4,6,4],
+      "to": [5,10,12],
+      "faces": {
+        "east":{"texture": 2,"uv": [4,6,12,10]},
+        "up":{"texture": 3,"uv": [1,1,2,9]},
+        "down":{"texture": 3,"uv": [1,1,2,9]},
+        "west":{"texture": 0,"uv": [4,6,12,10]},
+        "north": {"texture": 2,"uv": [4,6,5,10]},
+        "south": {"texture": 2,"uv": [4,6,5,10]}
+      }
+    },
+    {"name":"cauldron_level_4_2",
+      "from": [11,6,4],
+      "to": [12,10,12],
+      "faces": {
+        "east":{"texture": 0,"uv": [4,6,12,10]},
+        "up":{"texture": 3,"uv": [1,1,2,9]},
+        "down":{"texture": 3,"uv": [1,1,2,9]},
+        "west":{"texture": 2,"uv": [4,6,12,10]},
+        "north": {"texture": 2,"uv": [4,6,5,10]},
+        "south": {"texture": 2,"uv": [4,6,5,10]}
+      }
+    },
+    {"name":"cauldron_level_4_3",
+      "from": [5,6,4],
+      "to": [11,10,5],
+      "faces": {
+        "south": {"texture":  2, "uv": [5,6,11,10]},
+        "north": {"texture":  0, "uv": [5,6,11,10]},
+        "up":{"texture": 3,"uv": [1,1,9,2]},
+        "down":{"texture": 3,"uv": [1,1,9,2]}
+      }
+    },
+    {"name":"cauldron_level_4_4",
+      "from": [5,6,11],
+      "to": [11,10,12],
+      "faces": {
+        "north": {"texture":  2, "uv": [5,6,11,10]},
+        "south": {"texture":  0, "uv": [5,6,11,10]},
+        "up":{"texture": 3,"uv": [1,1,9,2]},
+        "down":{"texture": 3,"uv": [1,1,9,2]}
+      }
+      }
   ]
 }
