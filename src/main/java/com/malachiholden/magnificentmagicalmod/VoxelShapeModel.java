@@ -1,22 +1,34 @@
 package com.malachiholden.magnificentmagicalmod;
 
+import com.google.common.io.CharStreams;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import net.minecraft.util.math.shapes.IBooleanFunction;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
+import org.apache.commons.compress.utils.Charsets;
+import org.apache.commons.compress.utils.IOUtils;
+import sun.nio.cs.UTF_8;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public class VoxelShapeModel {
 
-    public static VoxelShape fromModelJson(String modelJsonFileName){
+    public static VoxelShape fromModelJson(String modelJsonResourceName){
         try {
-            FileReader reader = new FileReader(modelJsonFileName);
+            ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+            InputStream is = classloader.getResourceAsStream(modelJsonResourceName);
+            if (is == null) return null;
+            ByteArrayOutputStream result = new ByteArrayOutputStream();
+            byte[] buffer = new byte[1024];
+            int length;
+            while ((length = is.read(buffer)) != -1) {
+                result.write(buffer, 0, length);
+            }
             Gson gson = new Gson();
-            ModelJson modelJson = gson.fromJson(reader, new TypeToken<ModelJson>(){}.getType());
+            ModelJson modelJson = gson.fromJson(result.toString(), new TypeToken<ModelJson>(){}.getType());
 
             VoxelShape resultShape = VoxelShapes.empty();
             for (Element element: modelJson.elements){
@@ -30,7 +42,7 @@ public class VoxelShapeModel {
                 resultShape = VoxelShapes.combine(resultShape, newShape, IBooleanFunction.TRUE); // not sure about the third argument here
             }
             return resultShape;
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             return null;
         }
     }
