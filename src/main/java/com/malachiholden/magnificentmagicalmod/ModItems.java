@@ -37,6 +37,12 @@ public class ModItems {
     public static final RegistryObject<Item> BRASS_BLOCK = ITEMS.register("brass_block", ()->new BlockItem(ModBlocks.BRASS_BLOCK.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> SILVER_ORE = ITEMS.register("silver_ore", ()->new BlockItem(ModBlocks.SILVER_ORE.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> COPPER_ORE = ITEMS.register("copper_ore", ()->new BlockItem(ModBlocks.COPPER_ORE.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> BASIC_CAULDRON = ITEMS.register("basic_cauldron", ()->new BlockItem(ModBlocks.BASIC_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> COPPER_CAULDRON = ITEMS.register("copper_cauldron", ()->new BlockItem(ModBlocks.COPPER_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
-
+    public static final RegistryObject<Item> BRASS_CAULDRON = ITEMS.register("brass_cauldron", ()->new BlockItem(ModBlocks.BRASS_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> PEWTER_CAULDRON = ITEMS.register("pewter_cauldron", ()->new BlockItem(ModBlocks.PEWTER_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> BRONZE_CAULDRON = ITEMS.register("bronze_cauldron", ()->new BlockItem(ModBlocks.BRONZE_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> SILVER_CAULDRON = ITEMS.register("silver_cauldron", ()->new BlockItem(ModBlocks.SILVER_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> GOLD_CAULDRON = ITEMS.register("gold_cauldron", ()->new BlockItem(ModBlocks.GOLD_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> BURNER = ITEMS.register("burner", ()->new BlockItem(ModBlocks.BURNER.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
 }

@@ -21,4 +21,8 @@ public class WizardingCauldron extends Block {
 //        VoxelShape superShape = super.getShape(state, worldIn, pos, context);
         return CAULDRON_SHAPE;
     }
+//    @Override
+//    public VoxelShape getCollisionShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
+//        return CAULDRON_SHAPE;
+//    }
 }
