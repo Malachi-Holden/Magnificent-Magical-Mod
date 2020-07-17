@@ -1,17 +1,11 @@
 package com.malachiholden.magnificentmagicalmod;
 
-import com.google.common.io.CharStreams;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import net.minecraft.util.math.shapes.IBooleanFunction;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
-import org.apache.commons.compress.utils.Charsets;
-import org.apache.commons.compress.utils.IOUtils;
-import sun.nio.cs.UTF_8;
-
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public class VoxelShapeModel {
