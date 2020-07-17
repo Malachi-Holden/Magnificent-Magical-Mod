@@ -33,7 +33,7 @@ public class VoxelShapeModel {
                 int y2 = element.to.get(1);
                 int z2 = element.to.get(2);
                 VoxelShape newShape = VoxelShapes.create(x1, y1, z1, x2, y2, z2);
-                resultShape = VoxelShapes.combine(resultShape, newShape, IBooleanFunction.TRUE); // not sure about the third argument here
+                resultShape = VoxelShapes.combine(resultShape, newShape, IBooleanFunction.OR); // not sure about the third argument here
             }
             return resultShape;
         } catch (IOException e) {
