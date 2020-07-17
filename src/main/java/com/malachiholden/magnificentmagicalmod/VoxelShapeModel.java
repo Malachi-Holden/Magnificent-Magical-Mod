@@ -26,13 +26,13 @@ public class VoxelShapeModel {
 
             VoxelShape resultShape = VoxelShapes.empty();
             for (Element element: modelJson.elements){
-                int x1 = element.from.get(0);
-                int y1 = element.from.get(1);
-                int z1 = element.from.get(2);
-                int x2 = element.to.get(0);
-                int y2 = element.to.get(1);
-                int z2 = element.to.get(2);
-                VoxelShape newShape = VoxelShapes.create(x1, y1, z1, x2, y2, z2);
+                double x1 = element.from.get(0);
+                double y1 = element.from.get(1);
+                double z1 = element.from.get(2);
+                double x2 = element.to.get(0);
+                double y2 = element.to.get(1);
+                double z2 = element.to.get(2);
+                VoxelShape newShape = VoxelShapes.create(x1/16, y1/16, z1/16, x2/16, y2/16, z2/16);
                 resultShape = VoxelShapes.combine(resultShape, newShape, IBooleanFunction.OR); // not sure about the third argument here
             }
             return resultShape;
