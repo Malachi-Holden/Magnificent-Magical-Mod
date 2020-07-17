@@ -8,7 +8,8 @@
     "1": "magnificentmagicalmod:block/basic_cauldron_bottom_inside",
     "2": "magnificentmagicalmod:block/basic_cauldron_exterior",
     "3": "magnificentmagicalmod:block/basic_cauldron_interior",
-    "4": "magnificentmagicalmod:block/basic_cauldron_rim"
+    "4": "magnificentmagicalmod:block/basic_cauldron_rim",
+    "particle": "magnificentmagicalmod:block/basic_cauldron_exterior"
   },
   "elements": [
     {

@@ -23,4 +23,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> BRONZE_CAULDRON=BLOCKS.register("bronze_cauldron",()-> new WizardingCauldron(Block.Properties.create(Material.IRON).hardnessAndResistance(3.5f,6f).harvestLevel(1).harvestTool(ToolType.PICKAXE)));
     public static final RegistryObject<Block> PEWTER_CAULDRON=BLOCKS.register("pewter_cauldron",()-> new WizardingCauldron(Block.Properties.create(Material.IRON).hardnessAndResistance(3.5f,6f).harvestLevel(1).harvestTool(ToolType.PICKAXE)));
     public static final RegistryObject<Block> GOLD_CAULDRON=BLOCKS.register("gold_cauldron",()-> new WizardingCauldron(Block.Properties.create(Material.IRON).hardnessAndResistance(3.5f,6f).harvestLevel(1).harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> BURNER=BLOCKS.register("burner",()->new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.5f,6f)));
+
+
+
 }

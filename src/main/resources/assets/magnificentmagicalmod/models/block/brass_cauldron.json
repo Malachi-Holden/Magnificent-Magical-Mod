@@ -5,6 +5,7 @@
     "1": "magnificentmagicalmod:block/brass_cauldron_bottom_inside",
     "2": "magnificentmagicalmod:block/brass_cauldron_exterior",
     "3": "magnificentmagicalmod:block/brass_cauldron_interior",
-    "4": "magnificentmagicalmod:block/brass_cauldron_rim"
+    "4": "magnificentmagicalmod:block/brass_cauldron_rim",
+    "particle": "magnificentmagicalmod:block/brass_cauldron_exterior"
   }
 }

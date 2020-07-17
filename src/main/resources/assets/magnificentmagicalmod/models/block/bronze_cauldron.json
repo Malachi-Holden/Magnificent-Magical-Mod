@@ -5,6 +5,7 @@
     "1": "magnificentmagicalmod:block/bronze_cauldron_bottom_inside",
     "2": "magnificentmagicalmod:block/bronze_cauldron_exterior",
     "3": "magnificentmagicalmod:block/bronze_cauldron_interior",
-    "4": "magnificentmagicalmod:block/bronze_cauldron_rim"
+    "4": "magnificentmagicalmod:block/bronze_cauldron_rim",
+    "particle": "magnificentmagicalmod:block/bronze_cauldron_exterior"
   }
 }

@@ -5,6 +5,7 @@
     "1": "magnificentmagicalmod:block/silver_cauldron_bottom_inside",
     "2": "magnificentmagicalmod:block/silver_cauldron_exterior",
     "3": "magnificentmagicalmod:block/silver_cauldron_interior",
-    "4": "magnificentmagicalmod:block/silver_cauldron_rim"
+    "4": "magnificentmagicalmod:block/silver_cauldron_rim",
+    "particle": "magnificentmagicalmod:block/silver_cauldron_exterior"
   }
 }

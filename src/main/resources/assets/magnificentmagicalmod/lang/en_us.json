@@ -20,7 +20,9 @@
   "block.magnificentmagicalmod.copper_cauldron": "Copper Cauldron",
   "block.magnificentmagicalmod.silver_cauldron": "Silver Cauldron",
   "block.magnificentmagicalmod.pewter_cauldron": "Pewter Cauldron",
-  "block.magnificentmagicalmod.pewter_cauldron": "Pewter Cauldron",
+  "block.magnificentmagicalmod.gold_cauldron": "Gold Cauldron",
+
+  "block.magnificentmagicalmod.burner": "Burner",
 
   "itemGroup.tabMagnificentMagicalMod": "Magnificent Magical Mod"
 }
