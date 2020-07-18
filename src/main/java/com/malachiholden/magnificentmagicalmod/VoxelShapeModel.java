@@ -10,9 +10,10 @@ import java.util.ArrayList;
 
 public class VoxelShapeModel {
 
-    public static VoxelShape fromModelJson(String modelJsonResourceName){
+    public static VoxelShape fromModelName(String modelName){
         try {
             ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+            String modelJsonResourceName = "assets/" + MagnificentMagicalMod.MOD_ID + "/models/block/" + modelName + ".json";
             InputStream is = classloader.getResourceAsStream(modelJsonResourceName);
             if (is == null) return null;
             ByteArrayOutputStream result = new ByteArrayOutputStream();
@@ -33,7 +34,7 @@ public class VoxelShapeModel {
                 double y2 = element.to.get(1);
                 double z2 = element.to.get(2);
                 VoxelShape newShape = VoxelShapes.create(x1/16, y1/16, z1/16, x2/16, y2/16, z2/16);
-                resultShape = VoxelShapes.combine(resultShape, newShape, IBooleanFunction.OR); // not sure about the third argument here
+                resultShape = VoxelShapes.or(resultShape, newShape);
             }
             return resultShape;
         } catch (IOException e) {
