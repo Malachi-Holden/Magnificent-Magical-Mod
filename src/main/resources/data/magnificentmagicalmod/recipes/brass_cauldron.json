@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "x x",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "magnificentmagicalmod:brass_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "magnificentmagicalmod:brass_cauldron"
+  }
+
+
+
+
+}

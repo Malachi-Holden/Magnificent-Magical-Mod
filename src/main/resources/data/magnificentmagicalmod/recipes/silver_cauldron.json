@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "x x",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "magnificentmagicalmod:silver_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "magnificentmagicalmod:silver_cauldron"
+  }
+
+
+
+
+}

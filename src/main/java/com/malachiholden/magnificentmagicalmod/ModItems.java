@@ -38,6 +38,7 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_ORE = ITEMS.register("silver_ore", ()->new BlockItem(ModBlocks.SILVER_ORE.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> COPPER_ORE = ITEMS.register("copper_ore", ()->new BlockItem(ModBlocks.COPPER_ORE.get(), (new Item.Properties()).maxStackSize(64).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> BASIC_CAULDRON = ITEMS.register("basic_cauldron", ()->new BlockItem(ModBlocks.BASIC_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> BASIC_CAULDRON_FILLED = ITEMS.register("basic_cauldron_filled", ()->new BlockItem(ModBlocks.BASIC_CAULDRON_FILLED.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> COPPER_CAULDRON = ITEMS.register("copper_cauldron", ()->new BlockItem(ModBlocks.COPPER_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> BRASS_CAULDRON = ITEMS.register("brass_cauldron", ()->new BlockItem(ModBlocks.BRASS_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
     public static final RegistryObject<Item> PEWTER_CAULDRON = ITEMS.register("pewter_cauldron", ()->new BlockItem(ModBlocks.PEWTER_CAULDRON.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));

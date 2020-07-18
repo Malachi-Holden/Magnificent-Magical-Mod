@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "x x",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "magnificentmagicalmod:copper_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "magnificentmagicalmod:copper_cauldron"
+  }
+
+
+
+
+}
