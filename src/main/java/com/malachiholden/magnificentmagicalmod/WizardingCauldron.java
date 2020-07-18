@@ -63,24 +63,24 @@ public class WizardingCauldron extends CustomModelBlock {
             case BASIC:
                 worldIn.setBlockState(pos, ModBlocks.BASIC_CAULDRON_FILLED.get().getDefaultState());
                 break;
-//            case BRASS:
-//                worldIn.setBlockState(pos, ModBlocks.BRASS_CAULDRON_FILLED.get().getDefaultState());
-//                break;
-//            case BRONZE:
-//                worldIn.setBlockState(pos, ModBlocks.BRONZE_CAULDRON_FILLED.get().getDefaultState());
-//                break;
-//            case COPPER:
-//                worldIn.setBlockState(pos, ModBlocks.COPPER_CAULDRON_FILLED.get().getDefaultState());
-//                break;
-//            case GOLD:
-//                worldIn.setBlockState(pos, ModBlocks.GOLD_CAULDRON_FILLED.get().getDefaultState());
-//                break;
-//            case PEWTER:
-//                worldIn.setBlockState(pos, ModBlocks.PEWTER_CAULDRON_FILLED.get().getDefaultState());
-//                break;
-//            case SILVER:
-//                worldIn.setBlockState(pos, ModBlocks.SILVER_CAULDRON_FILLED.get().getDefaultState());
-//                break;
+            case BRASS:
+                worldIn.setBlockState(pos, ModBlocks.BRASS_CAULDRON_FILLED.get().getDefaultState());
+                break;
+            case BRONZE:
+                worldIn.setBlockState(pos, ModBlocks.BRONZE_CAULDRON_FILLED.get().getDefaultState());
+                break;
+            case COPPER:
+                worldIn.setBlockState(pos, ModBlocks.COPPER_CAULDRON_FILLED.get().getDefaultState());
+                break;
+            case GOLD:
+                worldIn.setBlockState(pos, ModBlocks.GOLD_CAULDRON_FILLED.get().getDefaultState());
+                break;
+            case PEWTER:
+                worldIn.setBlockState(pos, ModBlocks.PEWTER_CAULDRON_FILLED.get().getDefaultState());
+                break;
+            case SILVER:
+                worldIn.setBlockState(pos, ModBlocks.SILVER_CAULDRON_FILLED.get().getDefaultState());
+                break;
         }
         return ActionResultType.SUCCESS;
 

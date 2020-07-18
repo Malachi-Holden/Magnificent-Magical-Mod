@@ -1,0 +1,12 @@
+{
+  "parent": "magnificentmagicalmod:block/basic_cauldron_filled",
+  "textures": {
+    "0": "magnificentmagicalmod:block/pewter_cauldron_bottom",
+    "1": "magnificentmagicalmod:block/pewter_cauldron_bottom_inside",
+    "2": "magnificentmagicalmod:block/pewter_cauldron_exterior",
+    "3": "magnificentmagicalmod:block/pewter_cauldron_interior",
+    "4": "magnificentmagicalmod:block/pewter_cauldron_rim",
+    "5": "magnificentmagicalmod:block/cauldron_water",
+    "particle": "magnificentmagicalmod:block/pewter_cauldron_exterior"
+  }
+}

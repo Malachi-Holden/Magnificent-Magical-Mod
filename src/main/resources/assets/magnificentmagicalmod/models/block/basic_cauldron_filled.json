@@ -9,7 +9,7 @@
     "2": "magnificentmagicalmod:block/basic_cauldron_exterior",
     "3": "magnificentmagicalmod:block/basic_cauldron_interior",
     "4": "magnificentmagicalmod:block/basic_cauldron_rim",
-    "5": "magnificentmagicalmod:block/water_draft",
+    "5": "magnificentmagicalmod:block/cauldron_water",
     "particle": "magnificentmagicalmod:block/basic_cauldron_exterior"
   },
   "elements": [

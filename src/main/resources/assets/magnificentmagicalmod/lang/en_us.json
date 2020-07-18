@@ -15,13 +15,20 @@
   "block.magnificentmagicalmod.brass_block": "Brass Block",
 
   "block.magnificentmagicalmod.basic_cauldron": "Basic Cauldron",
-  "block.magnificentmagicalmod.basic_cauldron_filled": "Basic Cauldron - Water",
   "block.magnificentmagicalmod.brass_cauldron": "Brass Cauldron",
   "block.magnificentmagicalmod.bronze_cauldron": "Bronze Cauldron",
   "block.magnificentmagicalmod.copper_cauldron": "Copper Cauldron",
   "block.magnificentmagicalmod.silver_cauldron": "Silver Cauldron",
   "block.magnificentmagicalmod.pewter_cauldron": "Pewter Cauldron",
   "block.magnificentmagicalmod.gold_cauldron": "Gold Cauldron",
+
+  "block.magnificentmagicalmod.basic_cauldron_filled": "Basic Cauldron",
+  "block.magnificentmagicalmod.brass_cauldron_filled": "Brass Cauldron",
+  "block.magnificentmagicalmod.bronze_cauldron_filled": "Bronze Cauldron",
+  "block.magnificentmagicalmod.copper_cauldron_filled": "Copper Cauldron",
+  "block.magnificentmagicalmod.silver_cauldron_filled": "Silver Cauldron",
+  "block.magnificentmagicalmod.pewter_cauldron_filled": "Pewter Cauldron",
+  "block.magnificentmagicalmod.gold_cauldron_filled": "Gold Cauldron",
 
   "block.magnificentmagicalmod.burner": "Burner",
 
