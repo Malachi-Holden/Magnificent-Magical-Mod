@@ -35,7 +35,7 @@ public class ModBlocks {
 
 
 
-    public static final RegistryObject<Block> BURNER=BLOCKS.register("burner",()->new CustomModelBlock(Block.Properties.create(Material.IRON).hardnessAndResistance(1.5f,6f), "burner"));
+    public static final RegistryObject<Block> BURNER=BLOCKS.register("burner",()->new WizardingBurner(Block.Properties.create(Material.IRON).hardnessAndResistance(1.5f,6f), false));
 
 
 
