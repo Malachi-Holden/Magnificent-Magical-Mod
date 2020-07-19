@@ -33,7 +33,7 @@ public class WizardingBurner extends CustomModelBlock{
             if (player.getHeldItem(handIn).getItem() != Items.FLINT_AND_STEEL){
                 return super.onBlockActivated(state, worldIn, pos, player, handIn, hit);
             }
-            worldIn.setBlockState(pos, ModBlocks.COPPER_BLOCK.get().getDefaultState()); // switch to burner_lit when able
+            worldIn.setBlockState(pos, ModBlocks.BURNER_LIT.get().getDefaultState());
         }
 
         return ActionResultType.SUCCESS;

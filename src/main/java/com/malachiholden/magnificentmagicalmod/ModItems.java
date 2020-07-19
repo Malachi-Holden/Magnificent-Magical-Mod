@@ -54,6 +54,9 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_CAULDRON_FILLED = ITEMS.register("silver_cauldron_filled", ()->new BlockItem(ModBlocks.SILVER_CAULDRON_FILLED.get(), (new Item.Properties()).maxStackSize(1)));
     public static final RegistryObject<Item> GOLD_CAULDRON_FILLED = ITEMS.register("gold_cauldron_filled", ()->new BlockItem(ModBlocks.GOLD_CAULDRON_FILLED.get(), (new Item.Properties()).maxStackSize(1)));
 
-
     public static final RegistryObject<Item> BURNER = ITEMS.register("burner", ()->new BlockItem(ModBlocks.BURNER.get(), (new Item.Properties()).maxStackSize(1).group(tabMagnificentMagicalMod)));
+    public static final RegistryObject<Item> BURNER_LIT= ITEMS.register("burner_lit", ()->new BlockItem(ModBlocks.BURNER_LIT.get(), (new Item.Properties()).maxStackSize(1)));
+
+
+
 }
